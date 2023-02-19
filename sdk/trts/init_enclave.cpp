@@ -51,7 +51,7 @@
 #include "se_memcpy.h"
 #include "se_cpu_feature.h"
 #include "se_version.h"
-#include "sgx_mm_rt_abstraction.h"
+#include "sdk/trts/sgx_mm_rt_abstraction.h"
 // The global cpu feature bits from uRTS
 uint64_t g_cpu_feature_indicator __attribute__((section(RELRO_SECTION_NAME))) = 0;
 int EDMM_supported __attribute__((section(RELRO_SECTION_NAME))) = 0;
